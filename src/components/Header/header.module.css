@@ -1,0 +1,27 @@
+.title{
+    font-size: 64px;
+    font-weight: bold;
+}
+.icon{
+    position: relative;
+}
+.icon::after{
+    content: "";
+    position: absolute;
+    width: 140px;
+    height: 4px;
+    background-color:#fff;
+    top: 50%;
+    left: 50px;  
+    transform: translatey(-50%);
+}
+.icon::before{
+    content: "";
+    position: absolute;
+    width: 140px;
+    height: 4px;
+    background-color:#fff;
+    top: 50%;
+    right: 50px;
+    transform: translatey(-50%);
+}

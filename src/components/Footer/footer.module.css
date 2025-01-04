@@ -1,0 +1,41 @@
+.bg{
+    background-color:#2C3E50 ;
+    padding:80px 0;
+}
+.footerbg{
+    background-color: #1A252F;
+}
+.title{
+    font-size: 28px;
+    font-weight: 700;
+}
+.subTitle{
+    font-size: 16px;
+    font-weight: 400;
+}
+.content{
+    font-size: 16px;
+    font-weight: 700;
+}
+.icons{
+   
+    display: flex;
+   justify-content: center;
+   column-gap: 16px;
+}
+.icon{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #fff;
+    font-size: 20px;
+    transition: all .5s;
+}
+.icon:hover{
+  background-color: #fff;
+  color:#2C3E50 ;
+
+}

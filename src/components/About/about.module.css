@@ -1,0 +1,32 @@
+.title{
+    font-size: 48px;
+}
+.icon{
+    position: relative;
+}
+.icon::after{
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 4px;
+    background-color:#fff;
+    top: 50%;
+    left: 40px;  
+    transform: translatey(-50%);
+}
+.icon::before{
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 4px;
+    background-color:#fff;
+    top: 50%;
+    right: 40px;
+    transform: translatey(-50%);
+}
+.content{
+    font-size: 20px;
+    font-weight: 400;
+    
+    color: #fff;
+}
