@@ -17,13 +17,13 @@ export default function Navbar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
         <li className="nav-item ms-5">
-          <a className={`${style.active} nav-link text-white active fw-bold fs-6 `} aria-current="page" href="#">PORTFOLIO</a>
+          <NavLink className= "nav-link text-white  fw-bold fs-6"  aria-current="page" to="portfolio">PORTFOLIO</NavLink>
         </li>
         <li className="nav-item  ms-5">
-          <a className="nav-link text-white  fw-bold fs-6 " aria-current="page" href="#">ABOUT</a>
+          <NavLink className="nav-link text-white  fw-bold fs-6 " aria-current="page" to="about">ABOUT</NavLink>
         </li>
         <li className="nav-item  ms-5 ">
-          <a className="nav-link text-white fw-bold fs-6" aria-current="page" href="#">CONTACT</a>
+          <NavLink className="nav-link text-white fw-bold fs-6" aria-current="page" to="contact">CONTACT</NavLink>
         </li>
         
         
